@@ -121,3 +121,45 @@ public class Main
 		}
 	}
 }
+
+Q4. Mr. Radison is a Professor at Code Tantra University wanted to explain Pascal's Triangle problem to students, Help Mr. Radison to implement triangle problem with code by using recursion.
+
+Pascal's Triangle:
+	Pascal's triangle is a pattern of the triangle which is based on nCr.
+
+Sample Test Case
+
+Input:
+
+4 #Number of sides
+
+Output
+
+[1, 3, 3, 11] ------>Display the required ouput in the given format.
+
+Code:- 
+// Print Pascal's Triangle in Java
+import java.util.*;
+
+class Main {
+	static int factorial(int i)
+	{
+		if (i == 0)
+			return 1;
+		return i * factorial(i - 1);
+	}
+	public static void main(String[] args)
+	{
+		int n = 4;
+		String s="";
+		for (int i = 0; i < n; i++) {
+		    for (int j = 0; j <= i; j++) {
+
+				// nCr formula
+				if(i==3)
+				    s+=factorial(i)/ (factorial(i - j)* factorial(j))+" ";
+			}
+		}
+		System.out.print(s);
+	}
+}
