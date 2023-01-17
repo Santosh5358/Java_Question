@@ -13,8 +13,7 @@ Output:
   Students details sorted by Fname:-{2 Akhtar, 1 Malik}
   
   Code:-
-    
-import java.util.*;
+  import java.util.*;
 public class Main
 {
 	public static void main(String[] args) {
