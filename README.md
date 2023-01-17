@@ -1,5 +1,5 @@
 # Java_Question
-Q1. 
+Q1.  Take input name and their marks and arrange the name according to their name and their marks using array /list 
 
 Sample Input :-
 
@@ -34,8 +34,10 @@ Output:
 	}
 }
 
-Q2. Check the sum of Tripet Exits
+Q2. Check the sum of Tripet Exits or Not
+ 
  Sample Input :-
+ 
  8------->length of Array
  2------>elements 
  7
@@ -52,7 +54,7 @@ Q2. Check the sum of Tripet Exits
  
  Code:-
  
- public class Main
+public class Main
 {
     public static void tripletSum(int[] arr, int x) {
         //int numberPairs = 0;
