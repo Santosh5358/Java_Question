@@ -1,4 +1,4 @@
-# Java_Question
+/*# Java_Question
 Q1.  Take input name and their marks and arrange the name according to their name and their marks using array /list 
 
 Sample Input :-
@@ -13,8 +13,9 @@ Output:
   Students details sorted by Fname:-{2 Akhtar, 1 Malik}
   
   Code:-
+  */
   import java.util.*;
-  public class Main
+ class Q1
   {
 	public static void main(String[] args) {
 		//System.out.println("Hello World");
@@ -33,7 +34,7 @@ Output:
 		}
 	}
 }
-
+/* 
 Q2. Check the sum of Tripet Exits or Not
  
  Sample Input :-
@@ -53,8 +54,8 @@ Q2. Check the sum of Tripet Exits or Not
  Triplet Exists
  
  Code:-
- 
-public class Main
+ */
+class Q2
 {
     public static void tripletSum(int[] arr, int x) {
         //int numberPairs = 0;
@@ -85,6 +86,7 @@ public class Main
 		tripletSum(arr, a);
 	}
 }
+/* 
 Q3.   Write a program to take input name deparment language and mail id using Array /List and print if python language exists in language also print their name who have python language in their hobby also use the id like for the 1st person input the id is "E22BCAU001 for the 1st input and for the second one the id is "E22BCAU002" and soo on 
 
 Sample Test Case:
@@ -100,8 +102,9 @@ python exists in E22BCAU001
 ram
 
 Code:-
-import java.util.*;
-public class Main
+*/
+
+ class Q3
 {
 	public static void main(String[] args) {
 		int a=3;
@@ -121,7 +124,7 @@ public class Main
 		}
 	}
 }
-
+/*
 Q4. Mr. Radison is a Professor at Code Tantra University wanted to explain Pascal's Triangle problem to students, Help Mr. Radison to implement triangle problem with code by using recursion.
 
 Pascal's Triangle:
@@ -139,9 +142,9 @@ Output
 
 Code:- 
 // Print Pascal's Triangle in Java
-import java.util.*;
+*/
 
-class Main {
+class Q4 {
 	static int factorial(int i)
 	{
 		if (i == 0)
@@ -163,7 +166,7 @@ class Main {
 		System.out.print(s);
 	}
 }
-
+/*
 Q5 .  Fitness is a big challenge for all the kids nowadays, So, XYZ School has allotted N trays for N kids, each kid will be allotted 1 tray. Each tray is filled with N eggs Every kid is randomly allotted some number every day, all kids who are getting the same number must form a group. All the kids in that group must consume eggs that are equal to group size group size is 3 then all the kids in that group must consume 3 eggs from their tray.
 
 Principal wanted a dashboard that displays the number of eggs left in each tray. Can you help with a program that accepts the number of kids or number of trays N and the random number picked by each kid and print the number of eggs left in each tray?
@@ -197,8 +200,9 @@ There are 2 students who picked the random as 4, so they will consume two eggs, 
 There are 2 students who picked the random as 4, so they will consume two eggs, therefor left over eggs 8-2=6
 
 Code :- 
+*/
 
-public class Main
+class Q5
 {
 	public static void main(String[] args) {
 		int a[]={1,2,5,2,2,5,4,4};
@@ -217,5 +221,31 @@ public class Main
 		    }
 		    System.out.print((len-c)+" ");
 		}
+	}
+}
+public class Main{
+	public static void main(String[] args) {
+		Q1 q1=new Q1();
+		Q2 q2=new Q2();
+		Q3 q3=new Q3();
+		Q4 q4=new Q4();
+		Q5 q5=new Q5();
+		int Question=5;
+		switch(Question) {
+			case 1:
+			  q1.main(args);
+			  break;
+			case 2:
+			  // code block
+			  break;
+			case 3:
+			  // code block
+			  break;
+			case 4:
+			  // code block
+				break;
+			case 5:
+				break;
+		  }
 	}
 }
