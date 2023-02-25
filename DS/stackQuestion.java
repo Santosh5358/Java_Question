@@ -1,3 +1,4 @@
+package DS;
 import java.util.*;
 public class stackQuestion {
     public static void main(String[] args) {
@@ -19,7 +20,7 @@ public class stackQuestion {
             }else if(i==']'){
                 if(stack.peek()=='['){
                     stack.pop();
-                }else
+                }else   
                     return false;
 
             }else if(i==')'){
